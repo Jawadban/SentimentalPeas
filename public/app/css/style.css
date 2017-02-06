@@ -14,11 +14,18 @@
   cursor: pointer;
 }
 
-.results {
-  padding: 20px;
+img {
+  margin-right: 50px;
 }
-ul.results li {
-  margin: 20px;
+
+.results {
+  padding: 10px 0;
+  background-color: #efefef;
+  border: 1px solid #ddd;
+}
+.map {
+  padding: 10px;
+  background-color: white;
 }
 
 pre {
