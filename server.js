@@ -103,6 +103,10 @@ app.post('/api/stageToFriends', function (req, res){
 
 });
 
+// Send the three choices to friends through webpage
+app.get('/getTreeChoices', function (req, res) {
+  res.send(data);
+});
 
 // Accept SMS Replies here and add to votes
 app.post('/sms', function(req, res) {
